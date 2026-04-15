@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Card */
+.container {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: white;
+}
+
+/* Input + button */
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: orange;
+}
+
+/* Image container */
+.image-box {
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Weather image */
+#image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Temperature overlay */
+.weather {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Bottom info */
+.windSpeed,.humidity {
+    margin-top: 10px;
+    font-size: 16px;
+}
